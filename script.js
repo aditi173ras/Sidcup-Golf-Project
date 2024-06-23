@@ -11,13 +11,11 @@ document.addEventListener("mousemove", function (dets) {
 var h4all = document.querySelectorAll("#nav h4");
 h4all.forEach(function (elem) {
   elem.addEventListener("mouseenter", function () {
-<<<<<<< HEAD
     crsr.style.scale = 2.3;
     crsr.style.border = "1px solid #fff";
-=======
+    
     crsr.style.scale = 2.5;
     crsr.style.border = "0.1px solid #fff";
->>>>>>> 2aebda833a19d034a3e1f101e19d8154b35eb826
     crsr.style.backgroundColor = "transparent";
   });
   elem.addEventListener("mouseleave", function () {
